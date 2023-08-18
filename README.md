@@ -37,6 +37,16 @@ Separate installation (not using pip):
 
 - For Meep and MPB you need to use `conda` or `mamba` on MacOS, Linux or [Windows WSL (Windows Subsystem for Linux)](https://learn.microsoft.com/en-us/windows/wsl/install) with `conda install pymeep=*=mpi_mpich_* -c conda-forge -y`
 
+### Electronic Co-Design Flow: `piel`
+
+IF you also desire to use the `gplugins` in a flow with electronic tools codesign & interconnectivity, you can use the [`piel`](https://piel.readthedocs.io/en/latest/) package additionally alongside these tools:
+
+```
+pip install gplugins[piel]
+```
+
+Note that to maintain version compatibility with further open-source electronic flow tools, `piel` might use slightly older versions of the `gplugins` modules, and it will reinstall those modules with the suitable versions. 
+
 ## Getting started
 
 - [Read docs](https://gdsfactory.github.io/gplugins/)
