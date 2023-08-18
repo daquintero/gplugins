@@ -45,7 +45,7 @@ IF you also desire to use the `gplugins` in a flow with electronic tools codesig
 pip install gplugins[piel]
 ```
 
-Note that to maintain version compatibility with further open-source electronic flow tools, `piel` might use slightly older versions of the `gplugins` modules, and it will reinstall those modules with the suitable versions. 
+Note that to maintain compatibility with further open-source electronic flow tools, `piel` might use slightly older versions of the default `gplugins` modules. It should update the required dependencies if this is run after your specific initial `gplugins` installation.
 
 ## Getting started
 
